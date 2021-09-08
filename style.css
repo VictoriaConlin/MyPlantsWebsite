@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Satisfy&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#164a41;
+}
+
+#top {
+    color: #f1b24a;
+    background-image:url(photos/plants.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#top h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 80px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+#top h2 {
+    font-family: 'Baskervville', serif;
+    color: rgb(236, 216, 170);
+    margin-bottom: 40px;
+}
+
+#content {
+    margin-top: 20px;
+    color: rgb(236, 216, 170);
+    display: flex;
+    font-family: 'Baskervville', serif;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 300px;
+}
+
+#content h2 {
+    color: #f1b24a;
+}
+
+#content div {
+    margin: auto;
+    text-align: center;
+}

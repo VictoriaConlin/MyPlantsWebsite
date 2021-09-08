@@ -1,0 +1,52 @@
+body{
+    background-color:rgb(39, 39, 1);
+    color: peru;
+    text-align: center;
+}
+.description{
+    color:rgb(204, 167, 129);
+    font-size: smaller;
+}
+p{
+    font-size:x-large;
+}
+.table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+image{
+    height: 50%;
+    width: 50%;
+}
+div{
+    line-height: .25;
+}
+a{
+    color: seagreen;
+}
+.zoom:hover{
+    transform: scale(2.5);
+}
+.zoom{
+    font-size: 12;
+    line-height: 2;  
+}
+figure{
+    font-size: 12;
+    line-height: 2;
+}
+.image-containor{
+    display:flex;
+    align-items: flex-start;
+    justify-content:center;
+}
+.image-containor img{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+figcaption{
+    line-height: 1;
+}
+figcaption p{
+    font-size:small;
+}
